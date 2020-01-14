@@ -1,9 +1,10 @@
 const range = document.querySelector("#tipRange");
 const percentageOut = document.querySelector("#percentOut");
 const billAmount = document.querySelector("#billAmount");
-const rating = document.querySelector("option")
+const rating = document.querySelector("#myOption")
 const btnCalculate = document.querySelector("#calculate");
 const resultDisplay = document.querySelector("#result");
+
 
 
 btnCalculate.onclick = function(){
