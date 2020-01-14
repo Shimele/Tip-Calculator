@@ -1,6 +1,6 @@
 # Tip-Calculator
 Simple tip calculator page with HTML  BOOTSTRAP Javascript
-![alt text](https://github.com/Shimele/Tip-Calculator/blob/master/tip-calc.png)
+![alt text]()
 
 ## Live demo
 

@@ -20,27 +20,20 @@
           </section>
           <section id="inputs">
                 <form>
-                    <div class="form-row row">
-                        <h4>How much was your bill?</h4>
-                    </div>
-                    <div class="form-group row">
-                        <label for="billAmount" class="col-sm-2 col-form-label">$</label>
-                        <div class="col-sm-10">
-                            <input type="number" class="form-control" placeholder="bill amount" id="billAmount" style="width:30%">
-                        </div>
+                    <div class="form-group col-auto">
+                        <label for="billAmount">How much was your bill?</label>
+                        <input type="number" class="form-control" placeholder="$" id="billAmount">
                     </div>
                 </form>
                 <form>
-                    <div class="form-row align-items-center">
-                        <div class="col-auto my-1">
-                            <h4>Rate the service</h4>
-                            <select class="custom-select mr-sm-2" id="rating">
-                                <option id="myOption" value="4">excellent</option>
-                                <option id="myOption" value="3">good</option>
-                                <option id="myOption" value="2">could be better</option>
-                                <option id="myOption" value="1">poor</option>
-                            </select>
-                        </div>
+                    <div class="form-group col-auto">
+                        <label for="rating">Rate the service</label>
+                        <select class="custom-select mr-sm-2" id="rating">
+                            <option id="myOption" value="4">excellent</option>
+                            <option id="myOption" value="3">good</option>
+                            <option id="myOption" value="2">could be better</option>
+                            <option id="myOption" value="1">poor</option>
+                        </select>
                     </div>
                 </form>
                 <form>
@@ -50,7 +43,9 @@
                     <span class="text-muted" id="percentOut">15%</span>
                 </div>
                 </form>
-                <button type="button" class="btn btn-info btn-lg btn-block" id="calculate">Calculate</button>
+                <div class="button">
+                    <button type="button" class="btn btn-info btn-lg" id="calculate">Calculate</button>
+                </div>
           </section>
           <section id="result">
             
