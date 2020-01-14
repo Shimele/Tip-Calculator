@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: olivedrab;
+}
+.container{
+    margin: 2% 10% 10% 15%;
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0;
+}
+#heading{
+    padding: 2%;
+    background-color: brown;
+}
+#inputs{
+    padding: 2%;
+    justify-items: center;
+}
+
+.form-group{
+    justify-content: center;
+}
+.form-row{
+    justify-content: center;
+}
+.col-sm-10{
+    margin-left: 55%;
+
+}
+.range{
+    margin: 5% 0 5% 10%;
+    width: 75%;
+}
+.range input{
+   padding: 5px;
+}
+#result{
+padding: 3% 0 5% 5%;
+}
